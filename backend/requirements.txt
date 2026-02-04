@@ -1,0 +1,16 @@
+# Backend Python dependencies inferred from imports in the project
+fastapi
+uvicorn[standard]
+pydantic
+httpx
+redis
+python-dotenv
+passlib
+tinydb
+PyJWT
+# Optional AI SDKs (may not be available for all Python versions, e.g., Python 3.13)
+# To enable Gemini / Vertex features, install manually in a compatible Python environment:
+#   pip install google-generative-ai
+#   pip install google-cloud-vertex-ai
+# If installation fails, try Python 3.11 or a venv with a supported interpreter.
+# Optional: add specific versions if needed (e.g., fastapi==0.95.0)

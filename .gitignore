@@ -1,0 +1,38 @@
+# =====================
+# ENV / SECRETS
+# =====================
+.env
+.env.*
+*.pem
+*.key
+*.json
+
+# =====================
+# FRONTEND (VITE / REACT)
+# =====================
+node_modules/
+dist/
+.vite/
+
+# =====================
+# BACKEND (PYTHON)
+# =====================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+
+# =====================
+# LOGS
+# =====================
+*.log
+
+# =====================
+# OS / EDITORS
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

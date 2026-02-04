@@ -6,7 +6,6 @@ httpx
 redis
 python-dotenv
 passlib
-tinydb
 PyJWT
 google-generativeai
 email-validator

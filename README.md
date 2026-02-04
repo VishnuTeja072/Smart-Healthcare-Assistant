@@ -109,3 +109,15 @@ http://localhost:5173
 ### Live Link:
 
 https://smart-healthcare-assistant-two.vercel.app/
+
+---
+
+## 📄 License
+
+This project is licensed under the **Creative Commons BY-NC-ND 4.0** License.
+
+- You may view and study the code
+- You may NOT use it commercially
+- You may NOT redistribute or modify without permission
+
+© 2026 Vishnu Teja. All rights reserved.

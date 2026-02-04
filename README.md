@@ -104,4 +104,8 @@ http://localhost:5173
 
 <img width="1901" height="868" alt="Screenshot 2026-02-03 233337" src="https://github.com/user-attachments/assets/3097958b-d194-4841-9e20-7315ab2da3c9" />
 
+---
 
+### Live Link:
+
+https://smart-healthcare-assistant-two.vercel.app/

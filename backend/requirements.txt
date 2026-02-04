@@ -8,6 +8,8 @@ python-dotenv
 passlib
 tinydb
 PyJWT
+google-generativeai
+email-validator
 # Optional AI SDKs (may not be available for all Python versions, e.g., Python 3.13)
 # To enable Gemini / Vertex features, install manually in a compatible Python environment:
 #   pip install google-generative-ai

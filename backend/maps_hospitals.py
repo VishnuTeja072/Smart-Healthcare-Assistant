@@ -37,13 +37,12 @@ async def get_nearby_hospitals(lat: float, lon: float, specialist: str, urgency:
 
     # If GOOGLE_MAPS_API_KEY is present, prefer Google Places API
     if GOOGLE_MAPS_API_KEY:
-        # 2. Symptom-Based Logic
         if urgency.lower() == "high":
             search_query = f"Emergency {clean_spec} Hospital"
-            search_type = "hospital"
         else:
-            search_query = f"{clean_spec} Medical Clinic"
-            search_type = "doctor"
+            search_query = f"{clean_spec} Hospital"
+        
+        search_type = "hospital"
 
         params = {
             "location": f"{curr_lat},{curr_lon}",
